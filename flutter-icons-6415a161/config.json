@@ -1,0 +1,40 @@
+{
+  "name": "",
+  "css_prefix_text": "",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "58f376c8c60c911e8cd5a65becb0d932",
+      "css": "account_box",
+      "code": 59392,
+      "src": "material"
+    },
+    {
+      "uid": "56fdc86572a9bb1e891b3dd35b8b53c7",
+      "css": "kiwi_bird",
+      "code": 62773,
+      "src": "fontawesome5"
+    },
+    {
+      "uid": "h7disbowd4v177zjlsi6anz5nkka08uy",
+      "css": "twitter-bird",
+      "code": 62211,
+      "src": "modernpics"
+    },
+    {
+      "uid": "c2e02247804b8372740de0b76311f1ad",
+      "css": "beer",
+      "code": 59393,
+      "src": "typicons"
+    },
+    {
+      "uid": "bc61ebcf2f5d8d08b1e9e62167df7617",
+      "css": "birthday",
+      "code": 61949,
+      "src": "fontawesome"
+    }
+  ]
+}
