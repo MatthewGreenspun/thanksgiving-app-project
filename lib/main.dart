@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Thanksgiving App',
+      title: 'Thanksgiving Recipes',
       theme: ThemeData(
         scaffoldBackgroundColor: Colors.black,
         primarySwatch: Colors.orange,
@@ -55,7 +55,7 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: ThanksgivingAppBar("Thanksgiving App"),
+      appBar: ThanksgivingAppBar("Thanksgiving Recipes"),
       body: ListView(
           scrollDirection: Axis.vertical, children: _cards[_selectedIdx]),
       bottomNavigationBar: BottomNavigationBar(
