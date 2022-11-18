@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import "./custom_icons_icons.dart";
 import "./recipe_card.dart";
 import "./appbar.dart";
@@ -37,19 +36,20 @@ class _MyHomePageState extends State<MyHomePage> {
   int _selectedIdx = 0;
   final _cards = const [
     [
-      RecipeCard(name: "Roasted Turkey", asset: "turkey.jpeg"),
-      RecipeCard(name: "Stuffed Turkey", asset: "stuffed_turkey.jpg"),
-      RecipeCard(name: "Cranberry Turkey", asset: "cranberry_turkey.jpeg"),
+      RecipeCard(name: "Roasted Turkey", asset: "assets/turkey.jpeg"),
+      RecipeCard(name: "Stuffed Turkey", asset: "assets/stuffed_turkey.jpg"),
+      RecipeCard(
+          name: "Cranberry Turkey", asset: "assets/cranberry_turkey.jpeg"),
     ],
     [
-      RecipeCard(name: "Hot Chocolate", asset: "hot_chocolate.jpg"),
-      RecipeCard(name: "Lemon Water", asset: "lemon_water.jpg"),
-      RecipeCard(name: "Iced Tea", asset: "iced_tea.jpg"),
+      RecipeCard(name: "Hot Chocolate", asset: "assets/hot_chocolate.jpg"),
+      RecipeCard(name: "Lemon Water", asset: "assets/lemon_water.jpg"),
+      RecipeCard(name: "Iced Tea", asset: "assets/iced_tea.jpg"),
     ],
     [
-      RecipeCard(name: "Pumpkin Pie", asset: "pumpkin_pie.jpg"),
-      RecipeCard(name: "Apple Pie", asset: "apple_pie.jpg"),
-      RecipeCard(name: "Berry Pie", asset: "berry_pie.jpg"),
+      RecipeCard(name: "Pumpkin Pie", asset: "assets/pumpkin_pie.jpg"),
+      RecipeCard(name: "Apple Pie", asset: "assets/apple_pie.jpg"),
+      RecipeCard(name: "Berry Pie", asset: "assets/berry_pie.jpg"),
     ],
   ];
   @override
@@ -57,9 +57,7 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       appBar: ThanksgivingAppBar("Thanksgiving App"),
       body: ListView(
-          scrollDirection: Axis.vertical, 
-          children: _cards[_selectedIdx]
-        ),
+          scrollDirection: Axis.vertical, children: _cards[_selectedIdx]),
       bottomNavigationBar: BottomNavigationBar(
         backgroundColor: const Color.fromARGB(255, 46, 46, 46),
         currentIndex: _selectedIdx,
